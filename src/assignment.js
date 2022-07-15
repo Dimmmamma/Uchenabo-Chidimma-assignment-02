@@ -36,13 +36,13 @@ function countEvenNumbers(arrayOfNumbers) {
 
   var evenNumbersOnly = 0;
 
-  for (let i = 0; i < arrayOfNumbers.length; i++)
+  for (let i=0; i < arrayOfNumbers.length; i++)
     if (arrayOfNumbers [i] % 2 === 0) {
       evenNumbersOnly++;
     }
     return evenNumbersOnly;
 }
- assignment.countEvenNumbers = countEvenNumbers;
+ assignment.countEvenNumbers=countEvenNumbers;
 
 /**
  * Challenge - 3
